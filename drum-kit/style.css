@@ -8,6 +8,11 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
 
 .container {
     background: url(./img/bg.jpg) no-repeat center center fixed;

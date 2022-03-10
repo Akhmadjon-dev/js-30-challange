@@ -1,12 +1,23 @@
 
 
+let back = document.querySelector('#back');
+
+
 function play(title){
     var audio = new Audio('sounds/'+title+'.wav');
     audio.play();
 }
 
+window.addEventListener('keypress', function(e){
+    if(e.keyCode == 27){
+        back.click();
+
+    }
+});
+
 window.addEventListener('keydown', function(event){
-    var key = event.keyCode;
+    var key = event.keyCode;   
+
     if(key == 65){
         play('clap');
     }

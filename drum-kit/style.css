@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
 }
+
 *:before, *:after, * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -31,13 +32,15 @@
     height: 80px;
     background: rgba(0, 0, 0, 0.4);
     margin: 0 20px;
-    border-radius: 10px
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 .container__btn p{
     color: whitesmoke;
     margin-top: 10px;
 }
+
 .container__btn button{
     font-size: 42px;
     background: transparent;

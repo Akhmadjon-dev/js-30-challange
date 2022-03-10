@@ -7,11 +7,13 @@
 }
 body{
     padding: 20px;
+    position: relative;
 }
 .nav{
     margin-top: 20px;
     width: 300px;
-    min-height: 100vh;
+    min-height: 94vh;
+    height: 100%;
 }
 
 .nav__link{
@@ -21,4 +23,12 @@ body{
 .nav__link p{
     margin-right: 10px;
     color: 
+}
+
+.author{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 18px;
+
 }
